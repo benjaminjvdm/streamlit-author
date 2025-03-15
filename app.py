@@ -1,6 +1,6 @@
 st.subheader("About the Author")
 
-    image_url = "https://avatars.githubusercontent.com/u/97449931?v=4"
+    image_url = "https://github.com/benjaminjvdm/streamlit-author/blob/main/Untitled%20design(1)(1).png?raw=true"
     try:
         response = requests.get(image_url)
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
